@@ -84,12 +84,10 @@ ol {
   justify-content: space-between;
 }
 .logo-head {
-  margin-left: 32px;
-}
-.logo-head {
   display: flex;
   align-items: center;
   text-decoration: none;
+  margin-left: 32px;
 }
 .log-span {
   font-weight: 700;
@@ -120,7 +118,11 @@ ol {
   .nav-container {
     max-width: 1400px;
   }
+  .logo-head {
+    margin-left: 146px;
+  }
   .head-menu {
+    max-width: 379px;
     display: flex;
     gap: 30px;
     position: relative;
@@ -178,6 +180,7 @@ ol {
   align-items: center;
 }
 .work-at {
+  margin-left: 37px;
 }
 
 .work-h {
@@ -186,7 +189,6 @@ ol {
   line-height: 1.66667;
   text-align: center;
   color: #22343d;
-  margin-left: 37px;
   margin-bottom: 16px;
 }
 
@@ -196,14 +198,13 @@ ol {
   line-height: 1.55556;
   text-align: center;
   color: #22343d;
-  margin-left: 37px;
   margin-bottom: 32px;
 }
 
 .button-work-div {
   display: flex;
-  margin-left: 41px;
   gap: 28px;
+  margin-left: 15px;
 }
 .button-work {
   width: 142px;
@@ -220,7 +221,10 @@ ol {
   cursor: pointer;
 }
 .div-link {
+  display: flex;
+  align-items: center;
   margin: auto 0;
+  gap: 9px;
 }
 .main-link {
   font-weight: 600;
@@ -246,6 +250,31 @@ ol {
     height: 555px;
     flex-direction: row;
   }
+
+  .work-at {
+    max-width: 465px;
+    height: 233px;
+    margin-left: 146px;
+    margin-bottom: 45px;
+    justify-content: center;
+  }
+  .work-h {
+    max-width: 465px;
+    font-size: 40px;
+    line-height: 1.55;
+    text-align: left;
+  }
+  .work-p {
+    max-width: 465px;
+    text-align: left;
+    line-height: 1.2;
+  }
   .work-png {
+    max-width: 610px;
+    height: 555px;
+    margin-bottom: 0;
+  }
+  .button-work-div {
+    margin-left: 0;
   }
 }
